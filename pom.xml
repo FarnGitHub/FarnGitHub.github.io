@@ -1,8 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
   <modelVersion>4.0.0</modelVersion>
-  <groupId>maven</groupId>
+
+  <groupId>io.github.farnhova</groupId>
   <artifactId>jarmod-agent</artifactId>
-  <version>0.1.3-custom</version>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  <name>JarMod Agent</name>
+  <description>A lightweight agent for loading JarMods in Minecraft Beta.</description>
+  <url>https://github.com/farnhova/JarModAgent</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>https://github.com/farnhova/JarModAgent</url>
+    <connection>scm:git:https://github.com/farnhova/JarModAgent.git</connection>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/farnhova/JarModAgent</url>
+    </repository>
+  </distributionManagement>
 </project>
